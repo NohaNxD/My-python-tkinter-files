@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+root.title("notepad")
+root.geometry("400x300")
+root.minsize(400,300)
+root.maxsize(1280,720)
+f1 = Frame(root,bg="black")
+t1 = Label(f1,text="file    view    help")
+f1.pack(anchor = "nw")
+t1.pack()
+root.mainloop()
